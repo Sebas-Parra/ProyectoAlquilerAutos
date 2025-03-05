@@ -73,3 +73,34 @@ Si deseas contribuir al proyecto, sigue estos pasos:
 2. **Crea una nueva rama** para tu funcionalidad:  
    ```bash
    git checkout -b nueva-funcionalidad
+3. **Realiza los cambios y confírmalos:**
+   ```bash
+   git commit -m "Agregada nueva funcionalidad"
+4. **Sube los cambios a tu fork:**
+   ```bash
+   git push origin nueva-funcionalidad
+5. **Abre un Pull Request en este repositorio.**
+
+## 📜 Licencia
+Este proyecto está bajo la Licencia MIT.
+Consulta el archivo LICENSE para más detalles.
+
+---
+
+## **📌 2️⃣ Explicación del Formato**
+🔹 **Encabezados:** Usa `#` para títulos (`#` H1, `##` H2, `###` H3).  
+🔹 **Negritas:** Usa `**texto**`.  
+🔹 **Listas:** Usa `-` o `*`.  
+🔹 **Tablas:** Usa `|` y `-` para dividir filas y columnas.  
+🔹 **Códigos o comandos:** Usa **triple comilla invertida (` ``` `)** para bloques de código.  
+🔹 **Emojis:** Se escriben con `:nombre_del_emoji:` (GitHub los soporta nativamente).  
+
+---
+
+## **📌 3️⃣ Cómo Subirlo a GitHub**
+1. **Guarda el archivo** como `README.md`.
+2. **Abre Git Bash o la terminal y sube los cambios:**
+   ```bash
+   git add README.md
+   git commit -m "Agregado README con formato Markdown"
+   git push origin main
